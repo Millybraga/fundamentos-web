@@ -17,6 +17,8 @@ p{
     display: flex;
     flex-flow: row;
     justify-content: center;
+    align-items: center;
+   
 }
 
 #menu li{
@@ -26,7 +28,7 @@ p{
 
 #menu li a{
     text-decoration: none;
-    color: black;
+    color:mintcream;
     font-size: 20px;
 }
 #menu li a:hover{
@@ -34,6 +36,10 @@ p{
 
 }
 
+.sizeCopy{
+    color: mintcream;
+    background-color: black;
+}
 .p-20{
     padding: 20px;
 }
@@ -48,8 +54,15 @@ p{
 }
 
 .mb-50{
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
+
+.tag-video{
+    width: 560;
+    height: 500;
+    
+}
+
 /* Estilos da página contato.html*/
 
 .ml-50{
